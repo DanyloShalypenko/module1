@@ -3,7 +3,7 @@ public class Task1 {
     public static void main(String[] args) {
         int[] array = {1, 6, 123, 1, 1, 3};
         int count = uniqueCount(array);
-        System.out.println("Количество различных элементов: " + count);
+        System.out.println("Количество разных элементов: " + count);
     }
 
     public static int uniqueCount(int[] array) {
